@@ -52,9 +52,14 @@ img{
     height: 180px;
     width: 180px;
     padding-top: 10%;
+    box-shadow: 2px black;
     
 }
-.imagen:hover {filter: grayscale(80%);}
+.imagen:hover {filter: opacity(.5);}
+.imagen
+{
+    filter: drop-shadow(10px 10px 10px #444);
+}
 
 
 footer{
