@@ -11,7 +11,7 @@ body{
     display: inline;
     width: 300px;
     text-align: center;
-    font-family: 'Sunflower', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: aliceblue;
     
 
@@ -29,28 +29,53 @@ body{
     display: inline;
     width: 300px;
     text-align: center;
-    font-family: 'Sunflower', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: aliceblue;
 
     
 }
 a{
-    font-family: 'Sunflower', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
 }
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
+/*Hover bonito */
+a.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 1s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
+/*Hover no bonito
 a:hover{
     color: #000;
-}
+
+} */
 header{
     padding-top: 1%;
-    font-family: 'Sunflower', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-bottom: 1%;
     font-size: 100%;
     color: aliceblue;
 
 }
 #divimg{
-    padding-top: 8%;
+    padding-top: 4%;
     margin: 0 auto;
     width: 960px;
     
@@ -79,11 +104,15 @@ footer{
     text-align: center;
     color: #000;
 }
-a{
-    text-decoration: none;
-}
+
 h1{
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: 100;
+}
+#subtitutlo{
+    font-size: 90px;
+    font-weight: bold;  
+    font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (max-width: 1208px) {
     img {
